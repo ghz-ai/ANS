@@ -6,17 +6,16 @@ Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强
 ## Requirement
 <details open>
 <summary></summary>
-克隆 repo，并要求在 [**Python>=3.8.0**]🌟(https://www.python.org/) 环境中安装 [requirements.txt](requirements.txt) 
+克隆 repo，并要求在 [**Python>=3.8.0**]🌟(https://www.python.org/) 环境中安装requirements.txt
+
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
-cd yolov5
-pip install -r requirements.txt  # install
+pip install ultralytics
 ```
 
 
 </details>
 
-<details>
+
 
 ## Project Structure
 
