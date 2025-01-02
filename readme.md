@@ -5,7 +5,8 @@ Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强
 
 
 
-## Requirement
+## Requirement![new](/gif/new.gif)  
+
 <details open>
 <summary></summary>
 
@@ -15,18 +16,32 @@ Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强
 pip install -r requirements.txt
 ```
 其中库包含:
-- Python 3.10.4
-- NumPy 1.23.5
-- SciPy 1.14.1
-- pandas 1.5.3
-- torch
-
+- torch==1.12.1
+- cudatoolkit==10.2.89
+- numpy==1.22.3
+- ipython==8.10.0
+- jupyter==1.0.0
+- tqdm==4.66.1
+- pandas==1.4.4
+- scikit-learn==1.1.3
+- scipy==1.7.3
+- pickle
+- yaml
 </details>
 
 
-![new](/gif/new.gif)   
-## Project Structure
+ <img src="/gif/work1.gif" width="200" height="200">
 
+
+## 模型结果展示
+
+| Data                     | Metric                | AutoCF                 | LightGCN               | FPMC                   | SLRPlus                | GRU4Rec                | NeuMF                  |
+|:-------------------------|:----------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+| Grocery_and_Gourmet_Food | HR@5</br><br/>NDCG@5  | 0.1121</br><br/>0.0465 | 0.3858</br><br/>0.2659 | 0.3409</br><br/>0.2606 | 0.3242</br><br/>0.2249 | 0.3682</br><br/>0.2616 | 0.3261</br><br/>0.2242 |
+| MIND_Large               | HR@5</br><br/>NDCG@5  | 0.2537</br><br/>0.0807 | 0.1078</br><br/>0.0631 | 0.1804</br><br/>0.1207 | 0.1098</br><br/>0.0716 | 0.2010</br><br/>0.1221 | 0.1020</br><br/>0.0638 |
+| MovieLens-1M             | HR@5</br><br/>NDCG@5  | 0.6763</br><br/>0.2832 | 0.3520</br><br/>0.2382 | 0.4181</br><br/>0.2939 | 0.3693</br><br/>0.2455 | 0.4167</br><br/>0.2859 | 0.3319</br><br/>0.2277 |
+
+## Project Structure
 - `src/`: 包含模型实现代码
   - `mainCF.py`: 复现任务的主程序
   - `AutoCF_mat.py`: AutoCF 模型定义
