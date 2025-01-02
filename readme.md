@@ -1,4 +1,4 @@
-# Using Rechours Framework to Evaluate the Effectiveness of ANS Model
+# Using Rechours Framework to Evaluate the Effectiveness of ANS Model  **2024/12/31**
 Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强负采样技术
 本项目将ANS模型用于ReChorus框架进行测试😁，用于处理多种推荐算法的研究和复现工作😉
 [张文涛☘️ 的 GitHub Page](https://github.com/Zwt122544/ANS).
@@ -9,14 +9,19 @@ Augmented Negative Sampling (ANS)🚀 是一种用于协同过滤模型的增强
 克隆 repo，并要求在 [**Python>=3.8.0**]🌟(https://www.python.org/) 环境中安装requirements.txt
 
 ```bash
-pip install ultralytics
+pip install -r requirements.txt
 ```
-
+其中库包含:
+- Python 3.10.4
+- NumPy 1.23.5
+- SciPy 1.14.1
+- pandas 1.5.3
+- torch
 
 </details>
 
 
-
+![new](/asset/new.gif)
 ## Project Structure
 
 - `src/`: 包含模型实现代码
