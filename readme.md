@@ -1,5 +1,5 @@
 # Using Rechours Framework to Evaluate the Effectiveness of ANS Model   **2024/12/31**
-Augmented Negative Sampling (ANS) 是一种用于协同过滤模型的增强负采样技术![HAHAHA](/gif/new.gif)
+Augmented Negative Sampling (ANS) 是一种用于协同过滤模型的增强负采样技术![HAHAHA](/gif/HAHAHA.gif)
 本项目将ANS模型用于ReChorus框架进行测试，用于处理多种推荐算法的研究和复现工作
 
 [郭怀泽 的 GitHub Page](https://github.com/Zwt122544/ANS).<img src="/gif/github.gif" width="20" height="20">
